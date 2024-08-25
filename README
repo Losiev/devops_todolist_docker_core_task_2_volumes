@@ -44,3 +44,9 @@ EXPOSE 3306
 
 # Create a volume for persistent storage
 VOLUME /var/lib/mysql
+
+My DockerHub linkS
+
+https://hub.docker.com/repository/docker/losiev/todoapp
+
+https://hub.docker.com/repository/docker/losiev/mysql-local

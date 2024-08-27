@@ -1,14 +1,14 @@
-## Налаштування середовища
+## Enviroment setup
 
-1. **Форк репозиторію.**
+1. **Fork repo.**
 
-2. Оновлення `requirements.txt`** для включення `mysql-connector-python`:
+2. Update `requirements.txt`** for `mysql-connector-python`:
 
     ```text
     mysql-connector-python==8.2.0
     ```
 
-3. Оновлення settings.py
+3. Update settings.py
 
     ```python
     DATABASES = {
@@ -23,11 +23,11 @@
     }
     ```
 
-## Підготовка Docker контейнерів
+## Docker container prep
 
-### 1. Підготовка Dockerfile для MySQL
+### 1.  Dockerfile MySQL prep
 
-Створіть файл `Dockerfile.mysql`:
+Create `Dockerfile.mysql` :
 
 ```dockerfile
 # Use the official MySQL image from the Docker Hub
